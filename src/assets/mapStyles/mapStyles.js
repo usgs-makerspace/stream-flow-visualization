@@ -25,6 +25,12 @@ export default {
                 'minzoom': 0,
                 'maxzoom': 12,
                 'tileSize': 256
+            },
+            huctwo: {
+                type: 'vector',
+                'tiles': ['https://maptiles-prod-website.s3-us-west-2.amazonaws.com/misctilesets/huc2/{z}/{x}/{y}.pbf'],
+                'minzoom': 0,
+                'maxzoom': 8
             }
         },
         'sprite': '',
@@ -1157,6 +1163,37 @@ export default {
                     'line-color': 'rgb(0,0,0)'
                 }
 
+            },
+            {
+                'id': 'huc2',
+                'type': 'fill',
+                'source': 'huctwo',
+                'minzoom': 0,
+                'maxzoom': 8,
+                'source-layer': 'arc_huc24326simplified',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'fill-color': 'hsl(205, 56%, 73%)',
+                    'fill-opacity': 0.7
+                },
+                'showButtonLayerToggle': false
+            },
+            {
+                'id': 'huc2outline',
+                'type': 'line',
+                'source': 'huctwo',
+                'minzoom': 0,
+                'maxzoom': 8,
+                'source-layer': 'arc_huc24326simplified',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'line-color': 'rgb(0,0,0)'
+                },
+                'showButtonLayerToggle': false
             },
             {
                 'filter': ['all', ['==', '$type', 'Point'],
