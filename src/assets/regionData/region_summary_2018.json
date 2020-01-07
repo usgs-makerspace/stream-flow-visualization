@@ -1,0 +1,200 @@
+[
+ {
+   "huc2": 7,
+   "name": "Upper Mississippi Region",
+   "id": 0,
+   "year": 2018,
+   "runoff_mmd": 0.84621,
+   "rank": 12,
+   "percentile": 89.92
+ },
+ {
+   "huc2": 9,
+   "name": "Souris-Red-Rainy Region",
+   "id": 1,
+   "year": 2018,
+   "runoff_mmd": 0.16609,
+   "rank": 68,
+   "percentile": 42.86
+ },
+ {
+   "huc2": 18,
+   "name": "California Region",
+   "id": 2,
+   "year": 2018,
+   "runoff_mmd": 0.36684,
+   "rank": 95,
+   "percentile": 20.17
+ },
+ {
+   "huc2": 14,
+   "name": "Upper Colorado Region",
+   "id": 3,
+   "year": 2018,
+   "runoff_mmd": 0.14087,
+   "rank": 109,
+   "percentile": 8.4
+ },
+ {
+   "huc2": 20,
+   "name": "Hawaii Region",
+   "id": 4,
+   "year": 2018,
+   "runoff_mmd": 5.21717,
+   "rank": 49,
+   "percentile": 55.45
+ },
+ {
+   "huc2": 17,
+   "name": "Pacific Northwest Region",
+   "id": 5,
+   "year": 2018,
+   "runoff_mmd": 1.42689,
+   "rank": 54,
+   "percentile": 54.62
+ },
+ {
+   "huc2": 5,
+   "name": "Ohio Region",
+   "id": 6,
+   "year": 2018,
+   "runoff_mmd": 1.70796,
+   "rank": 7,
+   "percentile": 94.12
+ },
+ {
+   "huc2": 1,
+   "name": "New England Region",
+   "id": 7,
+   "year": 2018,
+   "runoff_mmd": 1.79521,
+   "rank": 46,
+   "percentile": 61.34
+ },
+ {
+   "huc2": 12,
+   "name": "Texas-Gulf Region",
+   "id": 8,
+   "year": 2018,
+   "runoff_mmd": 0.17007,
+   "rank": 75,
+   "percentile": 36.97
+ },
+ {
+   "huc2": 15,
+   "name": "Lower Colorado Region",
+   "id": 9,
+   "year": 2018,
+   "runoff_mmd": 0.01826,
+   "rank": 115,
+   "percentile": 3.36
+ },
+ {
+   "huc2": 2,
+   "name": "Mid Atlantic Region",
+   "id": 10,
+   "year": 2018,
+   "runoff_mmd": 1.67231,
+   "rank": 14,
+   "percentile": 88.24
+ },
+ {
+   "huc2": 8,
+   "name": "Lower Mississippi Region",
+   "id": 11,
+   "year": 2018,
+   "runoff_mmd": 1.23324,
+   "rank": 50,
+   "percentile": 57.98
+ },
+ {
+   "huc2": 21,
+   "name": "Caribbean Region",
+   "id": 12,
+   "year": 2018,
+   "runoff_mmd": 2.88848,
+   "rank": 17,
+   "percentile": 77.63
+ },
+ {
+   "huc2": 11,
+   "name": "Arkansas-White-Red Region",
+   "id": 13,
+   "year": 2018,
+   "runoff_mmd": 0.2853,
+   "rank": 64,
+   "percentile": 46.22
+ },
+ {
+   "huc2": 3,
+   "name": "South Atlantic-Gulf Region",
+   "id": 14,
+   "year": 2018,
+   "runoff_mmd": 1.04003,
+   "rank": 75,
+   "percentile": 36.97
+ },
+ {
+   "huc2": 6,
+   "name": "Tennessee Region",
+   "id": 15,
+   "year": 2018,
+   "runoff_mmd": 1.91706,
+   "rank": 31,
+   "percentile": 73.95
+ },
+ {
+   "huc2": 22,
+   "name": "South Pacific Region",
+   "id": 16,
+   "year": 2018,
+   "runoff_mmd": 0.68365,
+   "rank": 41,
+   "percentile": 65.55
+ },
+ {
+   "huc2": 13,
+   "name": "Rio Grande Region",
+   "id": 17,
+   "year": 2018,
+   "runoff_mmd": 0.02677,
+   "rank": 107,
+   "percentile": 10.08
+ },
+ {
+   "huc2": 16,
+   "name": "Great Basin Region",
+   "id": 18,
+   "year": 2018,
+   "runoff_mmd": 0.11735,
+   "rank": 87,
+   "percentile": 26.89
+ },
+ {
+   "huc2": 10,
+   "name": "Missouri Region",
+   "id": 19,
+   "year": 2018,
+   "runoff_mmd": 0.21173,
+   "rank": 55,
+   "percentile": 53.78
+ },
+ {
+   "huc2": 4,
+   "name": "Great Lakes Region",
+   "id": 20,
+   "year": 2018,
+   "runoff_mmd": 1.1801,
+   "rank": 15,
+   "percentile": 87.39
+ },
+ {
+   "huc2": 19,
+   "name": "Alaska Region",
+   "id": 21,
+   "year": 2018,
+   "runoff_mmd": 2.35932,
+   "rank": 95,
+   "percentile": 12.04
+ }
+]
