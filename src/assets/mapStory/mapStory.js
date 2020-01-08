@@ -5,8 +5,8 @@ export default {
             "class": "active",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-97, 38],
-                "zoom": 0,
+                "center": [-97, 24],
+                "zoom": 3,
                 "pitch": 0,
                 "speed": 0.2,
                 "curve": 1,
@@ -20,23 +20,23 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-97, 38],
-                "zoom": 0,
+                "center": [-112, 34],
+                "zoom": 4,
                 "pitch": 0,
                 "speed": 0.2,
                 "curve": 1,
                 "essential": true
             },
             "title": "Record lows",
-            "content": "Record low streamflow levels were observed in Arizona; streamflow was much below normal in Colorado and New Mexico, too. Other states shown here (Utah, Alaska, Kansas, Oregon) also had below normal streamflows."
+            "content": "Record low streamflow levels were observed in Arizona; streamflow was much below normal in Colorado and New Mexico, too. Other states (Utah, Alaska, Kansas, Oregon) also had below normal streamflows."
         },
         {
             "id": "national-record-highs",
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-97, 38],
-                "zoom": 0,
+                "center": [-97, 24],
+                "zoom": 3,
                 "pitch": 0,
                 "speed": 0.2,
                 "curve": 1,
@@ -49,12 +49,11 @@ export default {
             "id": "regional-patterns",
             "class": "",
             "flyToCommands": {
-                "duration": 9000,
-                "bearing": 10,
-                "center": [-74.8349, 39.0398],
-                "zoom": 12,
+                "bearing": 0,
+                "center": [-97, 24],
+                "zoom": 3,
                 "pitch": 0,
-                "speed": 0.5,
+                "speed": 0.2,
                 "essential": true
             },
             "title": "Regional Patterns",
@@ -64,12 +63,11 @@ export default {
             "id": "lower-colorado-region",
             "class": "",
             "flyToCommands": {
-                "duration": 15000,
-                "bearing": 100,
-                "center": [-76.316, 38.82],
-                "zoom": 12,
-                "pitch": 20,
-                "speed": 0.5,
+                "bearing": 0,
+                "center": [-111, 30],
+                "zoom": 5,
+                "pitch": 0,
+                "speed": 0.2,
                 "essential": true
             },
             "title": "Lower Colorado Region",
@@ -79,12 +77,11 @@ export default {
             "id": "regions-below-normal-streamflow",
             "class": "",
             "flyToCommands": {
-                "duration": 12000,
-                "bearing": 45,
-                "center": [-76.3761, 39.1993],
-                "zoom": 9,
-                "pitch": 20,
-                "speed": 0.5,
+                "bearing": 0,
+                "center": [-128, 34],
+                "zoom": 2,
+                "pitch": 0,
+                "speed": 0.2,
                 "essential": true
             },
             "title": "Regions below normal",
@@ -94,12 +91,11 @@ export default {
             "id": "regions-above-normal-streamflow",
             "class": "",
             "flyToCommands": {
-                "duration": 8000,
-                "bearing": 180,
-                "center": [-76.3768, 39.5362],
-                "zoom": 14,
+                "bearing": 0,
+                "center": [-82, 31],
+                "zoom": 4,
                 "pitch": 0,
-                "speed": 0.5,
+                "speed": 0.2,
                 "essential": true
             },
             "title": "Regions above normal",
@@ -109,10 +105,9 @@ export default {
             "id": "region-much-above-normal",
             "class": "",
             "flyToCommands": {
-                "duration": 16000,
-                "bearing": 27,
-                "center": [-76.3746, 42.3944],
-                "zoom": 12,
+                "bearing": 0,
+                "center": [-84, 34],
+                "zoom": 5,
                 "pitch": 0,
                 "speed": 0.5,
                 "essential": true
@@ -124,11 +119,10 @@ export default {
             "id": "additional-info",
             "class": "",
             "flyToCommands": {
-                "duration": 15500,
                 "bearing": 0,
-                "center": [-74.3867, 40.6134],
-                "zoom": 5,
-                "pitch": 20,
+                "center": [-97, 24],
+                "zoom": 3,
+                "pitch": 0,
                 "speed": 0.2,
                 "essential": true
             },
