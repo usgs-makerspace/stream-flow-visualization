@@ -26,12 +26,42 @@ export default {
                 'maxzoom': 12,
                 'tileSize': 256
             },
-            huctwo: {
+            regions: {
                 type: 'vector',
-                'tiles': ['https://maptiles-prod-website.s3-us-west-2.amazonaws.com/misctilesets/huc2/{z}/{x}/{y}.pbf'],
+                'tiles': ['https://maptiles-prod-website.s3-us-west-2.amazonaws.com/misctilesets/streamflow_2018/region_summary_2018/{z}/{x}/{y}.pbf'],
                 'minzoom': 0,
-                'maxzoom': 8
-            }
+                'maxzoom': 10
+            },
+            state_summary_autumn: {
+                type: 'vector',
+                'tiles': ['https://maptiles-prod-website.s3-us-west-2.amazonaws.com/misctilesets/streamflow_2018/state_autumn_2018/{z}/{x}/{y}.pbf'],
+                'minzoom': 0,
+                'maxzoom': 10
+            },
+            state_summary_winter: {
+                type: 'vector',
+                'tiles': ['https://maptiles-prod-website.s3-us-west-2.amazonaws.com/misctilesets/streamflow_2018/state_winter_2018/{z}/{x}/{y}.pbf'],
+                'minzoom': 0,
+                'maxzoom': 10
+            },
+            state_summary_spring: {
+                type: 'vector',
+                'tiles': ['https://maptiles-prod-website.s3-us-west-2.amazonaws.com/misctilesets/streamflow_2018/state_spring_2018/{z}/{x}/{y}.pbf'],
+                'minzoom': 0,
+                'maxzoom': 10
+            },
+            state_summary_summer: {
+                type: 'vector',
+                'tiles': ['https://maptiles-prod-website.s3-us-west-2.amazonaws.com/misctilesets/streamflow_2018/state_summer_2018/{z}/{x}/{y}.pbf'],
+                'minzoom': 0,
+                'maxzoom': 10
+            },
+            state_summary_2018: {
+                type: 'vector',
+                'tiles': ['https://maptiles-prod-website.s3-us-west-2.amazonaws.com/misctilesets/streamflow_2018/state_summary_2018/{z}/{x}/{y}.pbf'],
+                'minzoom': 0,
+                'maxzoom': 10
+            },
         },
         'sprite': '',
         'glyphs': 'https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf',
@@ -1134,59 +1164,249 @@ export default {
                 'showButtonLayerToggle': false
             },
             {
-                'id': 'Counties',
-                'type': 'line',
-                'source': 'basemap',
-                'source-layer': 'counties',
-                'minzoom': 6,
-                'maxzoom': 24,
-                'layout': {
-                    'visibility': 'none'
-                },
-                'paint': {
-                    'line-color': 'rgb(0,0,0)',
-                    'line-dasharray': [4, 3]
-                },
-                'showButtonLayerToggle': true
-            },
-            {
-                'id': 'states',
-                'type': 'line',
-                'source': 'basemap',
-                'source-layer': 'states',
-                'minzoom': 2,
-                'maxzoom': 24,
-                'layout': {
-                    'visibility': 'visible',
-                },
-                'paint': {
-                    'line-color': 'rgb(0,0,0)'
-                }
-
-            },
-            {
-                'id': 'huc2',
+                'id': 'region_summary_2018',
                 'type': 'fill',
-                'source': 'huctwo',
+                'source': 'regions',
                 'minzoom': 0,
-                'maxzoom': 8,
-                'source-layer': 'arc_huc24326simplified',
+                'maxzoom': 10,
+                'source-layer': 'region_summary_2018',
                 'layout': {
                     'visibility': 'visible'
                 },
-                'paint': {
-                    'fill-color': 'hsl(205, 56%, 73%)',
-                    'fill-opacity': 0.7
+                "paint": {
+                    "fill-color": [
+                        "step",
+                        ["number", ["get", "display"]],
+                        "#050507",1,
+                        "#0000FF",9,
+                        "#40DFD0",23,
+                        "#FFFFFF",68,
+                        "#FEE090",82,
+                        "#FE8D59",88,
+                        "#FF0000",89, 
+                        "#FF0000"
+                      ],
+                      'fill-opacity': 0.7
                 },
                 'showButtonLayerToggle': false
             },
             {
-                'id': 'huc2outline',
+                'id': 'region_summary_2018_outline',
                 'type': 'line',
-                'source': 'huctwo',
+                'source': 'regions',
+                'minzoom': 0,
+                'maxzoom': 10,
+                'source-layer': 'region_summary_2018',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'line-color': 'rgb(0,0,0)'
+                },
+                'showButtonLayerToggle': false
+            },
+            {
+                'id': 'state_summary_2018',
+                'type': 'fill',
+                'source': 'state_summary_2018',
+                'minzoom': 0,
+                'maxzoom': 10,
+                'source-layer': 'states_2018_summary',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                "paint": {
+                    "fill-color": [
+                        "step",
+                        ["number", ["get", "display"]],
+                        "#050507",1,
+                        "#0000FF",9,
+                        "#40DFD0",23,
+                        "#FFFFFF",68,
+                        "#FEE090",82,
+                        "#FE8D59",88,
+                        "#FF0000",89, 
+                        "#FF0000"
+                      ],
+                      'fill-opacity': 0.7
+                },
+                    'showButtonLayerToggle': false
+            },
+            {
+                'id': 'state_summary_2018_outline',
+                'type': 'line',
+                'source': 'state_summary_2018',
+                'minzoom': 0,
+                'maxzoom': 10,
+                'source-layer': 'states_2018_summary',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'line-color': 'rgb(0,0,0)'
+                },
+                'showButtonLayerToggle': false
+            },
+            {
+                'id': 'state_autumn_2018',
+                'type': 'fill',
+                'source': 'state_summary_autumn',
                 'minzoom': 0,
                 'maxzoom': 8,
-                'source-layer': 'arc_huc24326simplified',
+                'source-layer': 'state_2017q4_autumn',
+                'layout': {
+                    'visibility': 'none'
+                },
+                "paint": {
+                    "fill-color": [
+                        "step",
+                        ["number", ["get", "display"]],
+                        "#050507",1,
+                        "#0000FF",9,
+                        "#40DFD0",23,
+                        "#FFFFFF",68,
+                        "#FEE090",82,
+                        "#FE8D59",88,
+                        "#FF0000",89, 
+                        "#FF0000"
+                      ],
+                      'fill-opacity': 0.7
+                },
+                'showButtonLayerToggle': false
+            },
+            {
+                'id': 'state_autumn_2018_outline',
+                'type': 'line',
+                'source': 'state_summary_autumn',
+                'minzoom': 0,
+                'maxzoom': 10,
+                'source-layer': 'state_2017q4_autumn',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'line-color': 'rgb(0,0,0)'
+                },
+                'showButtonLayerToggle': false
+            },
+            {
+                'id': 'state_winter_2018',
+                'type': 'fill',
+                'source': 'state_summary_winter',
+                'minzoom': 0,
+                'maxzoom': 10,
+                'source-layer': 'state_2018q1_winter',
+                'layout': {
+                    'visibility': 'none'
+                },
+                "paint": {
+                    "fill-color": [
+                        "step",
+                        ["number", ["get", "display"]],
+                        "#050507",1,
+                        "#0000FF",9,
+                        "#40DFD0",23,
+                        "#FFFFFF",68,
+                        "#FEE090",82,
+                        "#FE8D59",88,
+                        "#FF0000",89, 
+                        "#FF0000"
+                      ],
+                      'fill-opacity': 0.7
+                },
+                'showButtonLayerToggle': false
+            },
+            {
+                'id': 'state_winter_2018_outline',
+                'type': 'line',
+                'source': 'state_summary_winter',
+                'minzoom': 0,
+                'maxzoom': 10,
+                'source-layer': 'state_2018q1_winter',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'line-color': 'rgb(0,0,0)'
+                },
+                'showButtonLayerToggle': false
+            },
+            {
+                'id': 'state_spring_2018',
+                'type': 'fill',
+                'source': 'state_summary_spring',
+                'minzoom': 0,
+                'maxzoom': 10,
+                'source-layer': 'state_2018q2_spring',
+                'layout': {
+                    'visibility': 'none'
+                },
+                "paint": {
+                    "fill-color": [
+                        "step",
+                        ["number", ["get", "display"]],
+                        "#050507",1,
+                        "#0000FF",9,
+                        "#40DFD0",23,
+                        "#FFFFFF",68,
+                        "#FEE090",82,
+                        "#FE8D59",88,
+                        "#FF0000",89, 
+                        "#FF0000"
+                      ],
+                      'fill-opacity': 0.7
+                },
+                'showButtonLayerToggle': false
+            },
+            {
+                'id': 'state_spring_2018_outline',
+                'type': 'line',
+                'source': 'state_summary_spring',
+                'minzoom': 0,
+                'maxzoom': 10,
+                'source-layer': 'state_2018q2_spring',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'line-color': 'rgb(0,0,0)'
+                },
+                'showButtonLayerToggle': false
+            },
+            {
+                'id': 'state_summer_2018',
+                'type': 'fill',
+                'source': 'state_summary_summer',
+                'minzoom': 0,
+                'maxzoom': 10,
+                'source-layer': 'state_2018q3_summer',
+                'layout': {
+                    'visibility': 'none'
+                },
+                "paint": {
+                    "fill-color": [
+                        "step",
+                        ["number", ["get", "display"]],
+                        "#050507",1,
+                        "#0000FF",9,
+                        "#40DFD0",23,
+                        "#FFFFFF",68,
+                        "#FEE090",82,
+                        "#FE8D59",88,
+                        "#FF0000",89, 
+                        "#FF0000"
+                      ],
+                      'fill-opacity': 0.7
+                },
+                'showButtonLayerToggle': false
+            },
+            {
+                'id': 'state_summer_2018_outline',
+                'type': 'line',
+                'source': 'state_summary_summer',
+                'minzoom': 0,
+                'maxzoom': 10,
+                'source-layer': 'state_2018q3_summer',
                 'layout': {
                     'visibility': 'visible'
                 },
