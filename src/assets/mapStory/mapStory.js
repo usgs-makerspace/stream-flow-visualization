@@ -14,8 +14,8 @@ export default {
             },
             "title": "Streamflow -- Water Year 2018",
             "content": "Annual runoff in the Nation's rivers and streams during water year 2018 (Oct 1, 2017 - Sep 30, 2018) was higher than the average annual runoff based on data from the last 89 years. Nationwide, the 2018 streamflow ranked 33rd highest out of the 89 years.",
-            "layersToHide": ["state_summary_2018", "state_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
-            "hiddenLayersToShow": []
+            "layersToHide": ["region_summary_2018","region_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
+            "hiddenLayersToShow": ["state_summary_2018", "state_summary_2018_outline"]
         },
         {
             "id": "national-record-lows",
@@ -32,7 +32,7 @@ export default {
             "title": "Record lows",
             "content": "Record low streamflow levels were observed in Arizona; streamflow was much below normal in Colorado and New Mexico, too. Other states (Utah, Alaska, Kansas, Oregon) also had below normal streamflows.",
             "layersToHide": ["region_summary_2018", "region_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
-            "hiddenLayersToShow": []
+            "hiddenLayersToShow": ["state_summary_2018", "state_summary_2018_outline"]
         },
         {
             "id": "national-record-highs",
@@ -49,7 +49,7 @@ export default {
             "title": "Record highs",
             "content": "Streamflow was above normal in Delaware, North Carolina, Nebraska, Wyoming, Tennessee, Indiana, Minnesota, DC, Kentucky and South Dakota. States with 'much above normal' streamflow included Iowa, Michigan, Maryland, Wisconsin, West Virginia, Ohio, Montana and Pennsylvania.",
             "layersToHide": ["region_summary_2018", "region_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
-            "hiddenLayersToShow": []
+            "hiddenLayersToShow": ["state_summary_2018", "state_summary_2018_outline"]
         },
         {
             "id": "regional-patterns",
