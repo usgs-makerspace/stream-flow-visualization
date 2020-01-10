@@ -64,7 +64,7 @@ export default {
                 "essential": true
             },
             "title": "Seasonal View - Autumn",
-            "content": "Streamflow was above normal in Delaware, North Carolina, Nebraska, Wyoming, Tennessee, Indiana, Minnesota, DC, Kentucky and South Dakota. States with 'much above normal' streamflow included Iowa, Michigan, Maryland, Wisconsin, West Virginia, Ohio, Montana and Pennsylvania.",
+            "content": "For autumn (Oct-Dec 2017) streamflow was much below normal in Arizona. New Jersey, Virginia, Arkansas, Louisiana, South Carolina, DC, Maryland North Carolina and Texas had below normal streamflow. Above normal streamflow was observed in Montana, Idaho, Wisconsin, New Mexico, and Florida. Much above normal streamflow was reported in Minnesota, South Dakota, Michigan, Wyoming, Puerto Rico and the Virgin Islands, and Nebraska. Streamflows were reported at record high levels in Nevada. Nationwide, autumn-season streamflow ranked 53rd highest out of 89 years.",
             "layersToHide": ["region_summary_2018_plain","region_summary_2018", "region_summary_2018_outline", "state_summary_2018", "state_summary_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
             "hiddenLayersToShow": ["state_autumn_2018", "state_autumn_2018_outline"]
         },
@@ -81,7 +81,7 @@ export default {
                 "essential": true
             },
             "title": "Seasonal View - Winter",
-            "content": "Streamflow was above normal in Delaware, North Carolina, Nebraska, Wyoming, Tennessee, Indiana, Minnesota, DC, Kentucky and South Dakota. States with 'much above normal' streamflow included Iowa, Michigan, Maryland, Wisconsin, West Virginia, Ohio, Montana and Pennsylvania.",
+            "content": "For the winter season (Jan–Mar 2018), streamflow was at a record low in Arizona. Streamflow was below normal in South Carolina, Georgia, New Mexico, District of Columbia, Florida, Alaska, and North Carolina. Above normal streamflow was reported in Michigan, Connecticut, Tennessee, Vermont, South Dakota, West Virginia, Indiana, Arkansas, Maine, Kentucky, Idaho, New York, Pennsylvania, New Hampshire, Massachusetts, Puerto Rico and the Virgin Islands, Ohio, and Wyoming. Streamflow was much above normal in Montana, Rhode Island, and Nevada. Nationwide, winter-season streamflow ranked 37th highest out of 89 years.",
             "layersToHide": ["region_summary_2018_plain","region_summary_2018", "region_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_summary_2018", "state_summary_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
             "hiddenLayersToShow": ["state_winter_2018", "state_winter_2018_outline"]
         },
@@ -98,7 +98,7 @@ export default {
                 "essential": true
             },
             "title": "Seasonal View - Spring",
-            "content": "Streamflow was above normal in Delaware, North Carolina, Nebraska, Wyoming, Tennessee, Indiana, Minnesota, DC, Kentucky and South Dakota. States with 'much above normal' streamflow included Iowa, Michigan, Maryland, Wisconsin, West Virginia, Ohio, Montana and Pennsylvania.",
+            "content": "For the spring season (Apr–Jun 2018), streamflow was much below normal in Arizona, New Mexico, Colorado, Utah, and Kansas. Below normal streamflow was reported in Texas, Oklahoma, and New Hampshire. Above normal streamflow was reported in Florida, New Jersey, Iowa, Nevada, South Dakota, Wisconsin, Hawaii, Tennessee, Pennsylvania, North Carolina, Wyoming, and Ohio. Streamflow was much above normal in Delaware, District of Columbia, Virginia, Maryland, West Virginia, and Montana. Nationwide, spring-season streamflow ranked 34th highest out of 89 years.",
             "layersToHide": ["region_summary_2018_plain","region_summary_2018", "region_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_summary_2018", "state_summary_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
             "hiddenLayersToShow": ["state_spring_2018", "state_winter_spring_outline"]
         },
@@ -115,7 +115,7 @@ export default {
                 "essential": true
             },
             "title": "Seasonal View - Summer",
-            "content": "Streamflow was above normal in Delaware, North Carolina, Nebraska, Wyoming, Tennessee, Indiana, Minnesota, DC, Kentucky and South Dakota. States with 'much above normal' streamflow included Iowa, Michigan, Maryland, Wisconsin, West Virginia, Ohio, Montana and Pennsylvania.",
+            "content": "For the summer season (Jul–Sep 2018), streamflow was much below normal in Colorado, New Mexico, Arizona, Maine, and Alaska. Below normal streamflow was reported in Washington, Utah, and Oregon. Above normal streamflow was observed in Michigan, South Carolina, Oklahoma, Tennessee, New Hampshire, New York, Illinois, Hawaii, Ohio, New Jersey, Delaware, and Indiana. Much above normal streamflow was reported in Nebraska, Wisconsin, Massachusetts, Minnesota, Virginia, Connecticut, Kentucky, South Dakota, Iowa, and West Virginia. Record high streamflow was reported in North Carolina, Pennsylvania, District of Columbia, and Maryland. Nationwide, summer-season streamflow ranked 3d highest out of 89 years.",
             "layersToHide": ["region_summary_2018_plain","region_summary_2018", "region_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_summary_2018", "state_summary_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline"],
             "hiddenLayersToShow": ["state_summer_2018", "state_summer_outline"]
         },
