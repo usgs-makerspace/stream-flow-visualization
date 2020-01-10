@@ -1191,6 +1191,22 @@ export default {
                 'showButtonLayerToggle': false
             },
             {
+                'id': 'region_summary_2018_plain',
+                'type': 'fill',
+                'source': 'regions',
+                'minzoom': 0,
+                'maxzoom': 10,
+                'source-layer': 'region_summary_2018',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                'paint': {
+                    'fill-color': '#FFFFFF',
+                    'fill-opacity': 0.45
+                },
+                'showButtonLayerToggle': false
+            },
+            {
                 'id': 'region_summary_2018_outline',
                 'type': 'line',
                 'source': 'regions',
@@ -1252,16 +1268,17 @@ export default {
                 'type': 'fill',
                 'source': 'state_summary_autumn',
                 'minzoom': 0,
-                'maxzoom': 8,
+                'maxzoom': 10,
                 'source-layer': 'state_2017q4_autumn',
                 'layout': {
-                    'visibility': 'none'
+                    'visibility': 'visible'
                 },
                 "paint": {
                     "fill-color": [
                         "step",
                         ["number", ["get", "display"]],
-                        "#050507",1,
+                        "#000000",0,
+                        "#000000",1,
                         "#0000FF",9,
                         "#40DFD0",23,
                         "#FFFFFF",68,
@@ -1297,7 +1314,7 @@ export default {
                 'maxzoom': 10,
                 'source-layer': 'state_2018q1_winter',
                 'layout': {
-                    'visibility': 'none'
+                    'visibility': 'visible'
                 },
                 "paint": {
                     "fill-color": [
@@ -1339,7 +1356,7 @@ export default {
                 'maxzoom': 10,
                 'source-layer': 'state_2018q2_spring',
                 'layout': {
-                    'visibility': 'none'
+                    'visibility': 'visible'
                 },
                 "paint": {
                     "fill-color": [
