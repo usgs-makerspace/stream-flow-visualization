@@ -13,7 +13,9 @@ export default {
                 "essential": true
             },
             "title": "Streamflow -- Water Year 2018",
-            "content": "Annual runoff in the Nation's rivers and streams during water year 2018 (Oct 1, 2017 - Sep 30, 2018) was higher than the average annual runoff based on data from the last 89 years. Nationwide, the 2018 streamflow ranked 33rd highest out of the 89 years."
+            "content": "Annual runoff in the Nation's rivers and streams during water year 2018 (Oct 1, 2017 - Sep 30, 2018) was higher than the average annual runoff based on data from the last 89 years. Nationwide, the 2018 streamflow ranked 33rd highest out of the 89 years.",
+            "layersToHide": ["state_summary_2018", "state_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
+            "hiddenLayersToShow": []
         },
         {
             "id": "national-record-lows",
@@ -28,7 +30,9 @@ export default {
                 "essential": true
             },
             "title": "Record lows",
-            "content": "Record low streamflow levels were observed in Arizona; streamflow was much below normal in Colorado and New Mexico, too. Other states (Utah, Alaska, Kansas, Oregon) also had below normal streamflows."
+            "content": "Record low streamflow levels were observed in Arizona; streamflow was much below normal in Colorado and New Mexico, too. Other states (Utah, Alaska, Kansas, Oregon) also had below normal streamflows.",
+            "layersToHide": ["region_summary_2018", "region_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
+            "hiddenLayersToShow": []
         },
         {
             "id": "national-record-highs",
@@ -43,7 +47,9 @@ export default {
                 "essential": true
             },
             "title": "Record highs",
-            "content": "Streamflow was above normal in Delaware, North Carolina, Nebraska, Wyoming, Tennessee, Indiana, Minnesota, DC, Kentucky and South Dakota. States with 'much above normal' streamflow included Iowa, Michigan, Maryland, Wisconsin, West Virginia, Ohio, Montana and Pennsylvania."
+            "content": "Streamflow was above normal in Delaware, North Carolina, Nebraska, Wyoming, Tennessee, Indiana, Minnesota, DC, Kentucky and South Dakota. States with 'much above normal' streamflow included Iowa, Michigan, Maryland, Wisconsin, West Virginia, Ohio, Montana and Pennsylvania.",
+            "layersToHide": ["region_summary_2018", "region_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
+            "hiddenLayersToShow": []
         },
         {
             "id": "regional-patterns",
@@ -57,7 +63,9 @@ export default {
                 "essential": true
             },
             "title": "Regional Patterns",
-            "content": "The US is divided up into water-resources regions that are based on surface topography and combined drainage areas of major rivers. These provide a different watershed-based way to depict the streamflow variation we just presented by state."
+            "content": "The US is divided up into water-resources regions that are based on surface topography and combined drainage areas of major rivers. These provide a different watershed-based way to depict the streamflow variation we just presented by state.",
+            "layersToHide": ["state_summary_2018", "state_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
+            "hiddenLayersToShow": []
         },
         {
             "id": "lower-colorado-region",
@@ -71,7 +79,9 @@ export default {
                 "essential": true
             },
             "title": "Lower Colorado Region",
-            "content": "Streamflow was observed at much below normal levels in the Lower Colorado region."
+            "content": "Streamflow was observed at much below normal levels in the Lower Colorado region.",
+            "layersToHide": ["state_summary_2018", "state_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
+            "hiddenLayersToShow": []
         },
         {
             "id": "regions-below-normal-streamflow",
@@ -85,7 +95,9 @@ export default {
                 "essential": true
             },
             "title": "Regions below normal",
-            "content": "The Upper Colorado, Rio Grande, Alaska and California regions also had below normal streamflow in 2018."
+            "content": "The Upper Colorado, Rio Grande, Alaska and California regions also had below normal streamflow in 2018.",
+            "layersToHide": ["state_summary_2018", "state_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
+            "hiddenLayersToShow": []
         },
         {
             "id": "regions-above-normal-streamflow",
@@ -99,7 +111,9 @@ export default {
                 "essential": true
             },
             "title": "Regions above normal",
-            "content": "Tennessee, Upper Mississippi, Great Lakes and Mid-Atlantic regions all observed above normal streamflow in 2018."
+            "content": "Tennessee, Upper Mississippi, Great Lakes and Mid-Atlantic regions all observed above normal streamflow in 2018.",
+            "layersToHide": ["state_summary_2018", "state_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
+            "hiddenLayersToShow": []
         },
         {
             "id": "region-much-above-normal",
@@ -113,7 +127,9 @@ export default {
                 "essential": true
             },
             "title": "Regions WAyyyy above normal",
-            "content": "The Ohio region experienced much above normal streamflows in 2018."
+            "content": "The Ohio region experienced much above normal streamflows in 2018.",
+            "layersToHide": ["state_summary_2018", "state_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
+            "hiddenLayersToShow": []
         },
         {
             "id": "additional-info",
@@ -127,7 +143,9 @@ export default {
                 "essential": true
             },
             "title": "Additional Information",
-            "content": "The USGS operated a nationwide network of more than 8,200 streamgages in 2018, and almost all USGS streamgages are operated in real time. Current information derived from these streamgages is available at https://waterwatch.usgs.gov. Tables of data that summarize historical streamflow conditions by State, expressed as runoff, beginning in water year 1901, can be accessed at https://waterwatch.usgs.gov/?id=statesum. These tables are updated every few months to reflect the most current streamflow data."
-        },
+            "content": "The USGS operated a nationwide network of more than 8,200 streamgages in 2018, and almost all USGS streamgages are operated in real time. Current information derived from these streamgages is available at https://waterwatch.usgs.gov. Tables of data that summarize historical streamflow conditions by State, expressed as runoff, beginning in water year 1901, can be accessed at https://waterwatch.usgs.gov/?id=statesum. These tables are updated every few months to reflect the most current streamflow data.",
+            "layersToHide": ["state_summary_2018", "state_summary_2018_outline", "state_autumn_2018", "state_autumn_2018_outline", "state_winter_2018", "state_winter_2018_outline", "state_spring_2018", "state_spring_2018_outline", "state_summer_2018", "state_summer_2018_outline"],
+            "hiddenLayersToShow": []
+        }
     ]
 };
