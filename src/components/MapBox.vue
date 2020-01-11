@@ -137,7 +137,7 @@
                 process.env.VUE_APP_ADD_ZOOM_LEVEL_DISPLAY === 'true' ? this.map.on("zoomend", this.addZoomLevelIndicator) : null
             }
         }
-    };
+      }
 </script>
 
 <style scoped lang="scss">
