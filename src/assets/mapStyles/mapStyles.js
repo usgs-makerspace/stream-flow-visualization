@@ -1186,7 +1186,7 @@ export default {
                         "#FF0000",89, 
                         "#FF0000"
                       ],
-                      'fill-opacity': 0.7
+                      'fill-opacity': 0.8
                 },
                 'showButtonLayerToggle': false
             },
@@ -1244,7 +1244,7 @@ export default {
                         "#FF0000",89, 
                         "#FF0000"
                       ],
-                      'fill-opacity': 0.7
+                      'fill-opacity': 0.8
                 },
                     'showButtonLayerToggle': false
             },
@@ -1277,8 +1277,7 @@ export default {
                     "fill-color": [
                         "step",
                         ["number", ["get", "display"]],
-                        "#000000",0,
-                        "#000000",1,
+                        "#000000",2,
                         "#0000FF",9,
                         "#40DFD0",23,
                         "#FFFFFF",68,
@@ -1287,7 +1286,7 @@ export default {
                         "#FF0000",89, 
                         "#FF0000"
                       ],
-                      'fill-opacity': 0.7
+                      'fill-opacity': 0.8
                 },
                 'showButtonLayerToggle': false
             },
@@ -1329,7 +1328,7 @@ export default {
                         "#FF0000",89, 
                         "#FF0000"
                       ],
-                      'fill-opacity': 0.7
+                      'fill-opacity': 0.8
                 },
                 'showButtonLayerToggle': false
             },
@@ -1367,11 +1366,10 @@ export default {
                         "#40DFD0",23,
                         "#FFFFFF",68,
                         "#FEE090",82,
-                        "#FE8D59",88,
-                        "#FF0000",89, 
+                        "#FE8D59",89, 
                         "#FF0000"
                       ],
-                      'fill-opacity': 0.7
+                      'fill-opacity': 0.8
                 },
                 'showButtonLayerToggle': false
             },
@@ -1404,7 +1402,7 @@ export default {
                     "fill-color": [
                         "step",
                         ["number", ["get", "display"]],
-                        "#050507",1,
+                        "#000000",2,
                         "#0000FF",9,
                         "#40DFD0",23,
                         "#FFFFFF",68,
@@ -1413,7 +1411,7 @@ export default {
                         "#FF0000",89, 
                         "#FF0000"
                       ],
-                      'fill-opacity': 0.7
+                      'fill-opacity': 0.8
                 },
                 'showButtonLayerToggle': false
             },
