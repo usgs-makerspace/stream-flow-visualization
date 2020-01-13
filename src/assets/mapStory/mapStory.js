@@ -5,7 +5,7 @@ export default {
             "class": "active",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-97, 24],
+                "center": [-98, 39],
                 "zoom": 3,
                 "pitch": 0,
                 "speed": 0.2,
@@ -39,7 +39,7 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-97, 24],
+                "center": [-98, 39],
                 "zoom": 3,
                 "pitch": 0,
                 "speed": 0.2,
@@ -56,7 +56,7 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-97, 24],
+                "center": [-98, 39],
                 "zoom": 3,
                 "pitch": 0,
                 "speed": 0.2,
@@ -73,8 +73,8 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-97, 24],
-                "zoom": 3,
+                "center": [-128, 46],
+                "zoom": 2,
                 "pitch": 0,
                 "speed": 0.2,
                 "curve": 1,
@@ -90,7 +90,7 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-97, 24],
+                "center": [-98, 39],
                 "zoom": 3,
                 "pitch": 0,
                 "speed": 0.2,
@@ -107,8 +107,8 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-97, 24],
-                "zoom": 3,
+                "center": [-128, 46],
+                "zoom": 2,
                 "pitch": 0,
                 "speed": 0.2,
                 "curve": 1,
@@ -124,8 +124,8 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-97, 24],
-                "zoom": 3,
+                "center": [-128, 46],
+                "zoom": 2,
                 "pitch": 0,
                 "speed": 0.2,
                 "essential": true
@@ -140,8 +140,8 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-111, 30],
-                "zoom": 5,
+                "center": [-111, 34],
+                "zoom": 4,
                 "pitch": 0,
                 "speed": 0.2,
                 "essential": true
@@ -156,7 +156,7 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-128, 34],
+                "center": [-128, 46],
                 "zoom": 2,
                 "pitch": 0,
                 "speed": 0.2,
@@ -172,8 +172,8 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-82, 31],
-                "zoom": 4,
+                "center": [-82, 45],
+                "zoom": 3,
                 "pitch": 0,
                 "speed": 0.2,
                 "essential": true
@@ -188,7 +188,7 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-84, 34],
+                "center": [-84, 39],
                 "zoom": 5,
                 "pitch": 0,
                 "speed": 0.5,
@@ -204,8 +204,8 @@ export default {
             "class": "",
             "flyToCommands": {
                 "bearing": 0,
-                "center": [-97, 24],
-                "zoom": 3,
+                "center": [-128, 46],
+                "zoom": 2,
                 "pitch": 0,
                 "speed": 0.2,
                 "essential": true
