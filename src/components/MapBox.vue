@@ -18,6 +18,7 @@
           v-if="!isInternetExplorer"
           id="mapContainer"
       >
+      <Legend />
         <div id="map-section">
           <MglMap
               id="mapgl"
@@ -69,6 +70,7 @@
     import InternetExplorerPage from "./InternetExplorerPage";
     import QuestionControl from "./QuestionControl";
     import StoryBoard from "./StoryBoard";
+    import Legend from "./Legend";
 
     import {
         MglMap,
@@ -92,7 +94,8 @@
             MglScaleControl,
             MglAttributionControl,
             QuestionControl,
-            StoryBoard
+            StoryBoard, 
+            Legend
         },
         props: {
             isInternetExplorer: {
